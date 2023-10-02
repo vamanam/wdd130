@@ -53,7 +53,7 @@ aside img {
 }
 
 aside h2 {
-    position: left; 
+    position: absolute; 
     top: 47px;
     left: 150px;
   }
