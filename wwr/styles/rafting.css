@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital@1&family=Montserrat+Alternates:ital,wght@1,400;1,600&family=Roboto:ital,wght@1,700&display=swap');
+
+:root {
+    --primary-color: #04151F;
+    --secondary-color: #183A37;
+    --accent1-color: #EFD6AC;
+    --accent2-color: #C44900;
+  
+    --heading-font: 'lato', serif;
+    --paragraph-font: 'Roboto', serif;
+  
+    --nav-background-color:#04151F;
+    --nav-link-color: #183A37;
+    --nav-hover-link-color: #EFD6AC;
+    --nav-hover-background-color: #C44900;
+  }
+
+  .hero img {
+    
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+
+ .hero {
+  text-align: center;
+  position: relative;
+  }
+
+  #sit {
+    display: inline;
+  }
+
+
+   h1 {
+    display: block;
+    position: absolute; 
+    top: 10%;
+    left: 0%;
+    background-color: #C44900;
+    width: 100%
+    
+     
+  }
+  #we{
+    background-color: #C44900;
+  }
+  article {
+    position: absolute; 
+    width: 50%;
+    top:40%;
+    left:20%;
+
+    z-index: 1;
+    margin: 0 auto;
+    text-align: center;
+    padding: 10px;
+    
+    background-color: #C44900;
+  }
+  #blink{
+    float: left;
+    width: 40%;
+  }
+  
+  /*.er {
+    
+    display: block;
+    width: 100%;
+    height: auto;
+    
+  } */
+
+  #client {
+     display: inline;
+     position:absolute;
+     float: right;
+     width: 50%;
+     
+
+    } 
+
+/*.er{
+  margin-top: 100%;
+  
+}*/
+#erm {
+  display:block;
+}
+
+#ern {
+  display:block;
+}
+
+#erb {
+  display:block;
+}
+
+#erv {
+  display:block;
+}
+
+#erc {
+  display:block;
+}
+body {
+  font-family: Roboto;
+ }
+ 
+ h1 {
+  font-family: lato ;
+ }
+
+/*   
+  body {
+    font-family: var(--paragraph-font);
+    max-width: 960px;
+    padding: 20px;
+  }
+
+  h1, h2 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+  }
+
+  header {
+    padding: 20px;
+    background-color: var(--accent1-color);
+  }
+
+  p {
+    padding: 25px;
+  }
+
+  nav {
+    background-color: var(--nav-background-color);
+    font-size: 1.2rem;
+    display: flex;
+  }
+  
+  */
