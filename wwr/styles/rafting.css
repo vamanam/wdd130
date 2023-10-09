@@ -15,6 +15,12 @@
     --nav-hover-background-color: #C44900;
   }
 
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
   .hero img {
     
     display: block;
@@ -38,12 +44,15 @@
     top: 10%;
     left: 0%;
     background-color: #C44900;
+    box-shadow: 0 0 30px gray;
     width: 100%
-    
-     
-  }
+    }
   #we{
     background-color: #C44900;
+  }
+
+  p{
+    padding: 1rem;
   }
   article {
     position: absolute; 
@@ -53,11 +62,12 @@
 
     z-index: 1;
     margin: 0 auto;
-    text-align: center;
+    text-align: leftr;
     padding: 10px;
     
     background-color: #C44900;
   }
+
   #blink{
     float: left;
     width: 40%;
@@ -73,13 +83,14 @@
 
   #client {
      display: inline;
-     position:absolute;
+     margin:10px auto;
+     position:relative;
      float: right;
      width: 50%;
-     
-
     } 
 
+   
+    
 /*.er{
   margin-top: 100%;
   
