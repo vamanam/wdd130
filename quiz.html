@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>WDD 130 | Course Home - Quiz</title>
+    <link type="text/css" href="styles/quiz.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="Basic HTML  and CSS Quiz">
+        <h2>Basic HTML and CSS Quiz</h2>
+        <form action="submit_quiz.php" method="post">
+            <div class="form-group">
+                <label for="q1" class="form-label">1. What does the acronym HTML stand for?</label>
+                <input type="text" id="q1" name="q1" class="form-input" required>
+            </div>
+
+            <div class="form-group">
+                <label for="q2" class="form-label">2. How are id and class attributes selected in HTML</label>
+                <textarea id="q2" name="q2" class="form-textarea" required></textarea>
+            </div>
+
+            <div class="form-group">
+                <label for="q3" class="form-label">3. Which of the following is a valid CSS comment?</label>
+                <select id="q3" name="q3" class="form-select" required>
+                    <option value="" selected disabled>Choose One ...</option>
+                    <option value="Comment in HTML with Inline CSS">Comment in HTML with Inline CSS</option>
+                    <option value="Comment in an External CSS File">Comment in an External CSS File</option>
+                    <option value="HTML with Conditional Comments">HTML with Conditional Comments</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="q4" class="form-label">4. What is the bottom margin given this declaration?</label>
+                <div class="background-box">
+                    <p>margin: 10px 5px 15px;</p> <br>
+                </div>
+                <input type="number" id="q4" name="q4" class="form-input" required>
+
+            </div>
+
+            <button type="submit" class="form-button">Submit Quiz</button>
+        </form>
+    </div>
+    <footer>
+        <p>©2023 | Basic HTML and CSS Quiz Form - Activity | Victoria Amanam</p>
+    </footer>
+
+</body>
+
+</html>
