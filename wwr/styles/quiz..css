@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+ }
+
+body {
+    font-family: Merriweather, Georgia, serif;
+    font-size: 1.2em;
+    color: #333;
+    background: #fff;
+    text-align: center;
+}
+
+.form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #eee;
+    border: 1px solid  rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    text-align: left;
+    display: grid;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-label {
+    display: block;
+    font-weight: bold;
+}
+
+header {
+    margin: 0 auto;
+    width: 650px;
+}
+
+.form-input,
+.form-textarea,
+.form-select,
+.form-button {
+    width: 50%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+
+h2 {
+    margin: 1rem;
+    font-size: 1.5em;
+    color: navy;
+    text-align: center;
+}
+
+.form-button {
+    background-color: navy;
+    color: #fff;
+    cursor: pointer;
+}
+
+.form-button:hover {
+    background-color: navy;
+}
+
+footer {
+    margin: 1rem auto 0;
+    width: 650px;
+    text-align: center;
+    font-size: 0.8em;
+    color: #777;
+    border-top: 1px solid #ccc;
+    font-weight: bold;
+}
+
+.background-box {
+    background-color: navy;
+    color: #fff;
+    padding: 5px;
+    width: 300px;
+    margin: 0 auto;
+    text-align: center;
+}

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Text on Left and Right of Image</title>
+    <style>
+        /* Style for the container */
+        .image-container {
+            overflow: hidden;
+            /* Clear any floats inside */
+        }
+
+        /* Style for the image */
+        .image {
+            float: left;
+            /* Float the image to the left */
+            margin-right: 10px;
+            /* Add some space between the image and text */
+        }
+
+        /* Style for the left text */
+        .left-text {
+            float: left;
+            /* Float the text to the left */
+        }
+
+        /* Style for the right text */
+        .right-text {
+            float: right;
+            /* Float the text to the right */
+        }
+
+        /* Clear the floats after the content */
+        .clearfix::after {
+            content: "";
+            clear: both;
+            display: table;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="image-container clearfix">
+        <img src="your-image.jpg" alt="Your Image" class="image">
+        <p class="left-text">Text on the left side of the image.</p>
+        <p class="right-text">Text on the right side of the image.</p>
+    </div>
+</body>
+
+</html>
