@@ -4,8 +4,9 @@
     <head>
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1.0">
-      <link href="styles/rafting.css" rel="stylesheet"/>
+      <link href="styles/rafting.css" rel="stylesheet">
       <title>Water Adventures - Contact Us</title>
+      <meta name="description" content="Victoria Amanam's BYU-Idaho WDD 130 course rafting page">
     </head>
     <body>
         <header>
@@ -20,20 +21,76 @@
          </nav>
         </header>
   
-      <main>
-        <h1>Contact Us</h1>
-        <p>White Water Adventures is a white rafting company providing.../p>
-        <form action="contact.php" method="post">
-          <label for="Name">Name:</label>
-          <input type="text" name="name" required>
-          <label for="email">Email:</label>
-          <input type="email" name="email" id="email" required>
-          <label for="phone">Phone:</label>
-          <input type="tel" name="phone" id="phone" required>
-          <label for="message">Message:</label>
-          <textarea name="message" id="message" cols="30" rows="10" required></textarea>
-          <input for="submit" value="send">
-        </form>
+    <main>
+            <div class = "hero">
+                <img id = "erx" src="images/rafting53_600.jpg" alt="hero image" width="200" height="150">
+            <h1>Contact Us</h1>
+              <p> White Water Adventure is a white water rafting company providing....</p>
+            </div>
+            <section class="company-info">
+              <h2>Company Information</h2>
+              <address>Addres: No 42 Ikot Ekpene Road, Uyo - Akwa Ibom State, Nigeria</address>
+              <a href="tel:+2348026833107">Call us at (+234)8026833107</a>
+              <p>Email: victoriaamanam1993@gmail.com</p>
+              <div id="map">
+                <iframe src="https://www.google.com/maps/d/embed?mid=1GGodUYxfMKn63GxJq_aXuIjZMXE&hl=en_US&ehbc=2E312F" width="640"
+                  height="480"></iframe>
+              </div>
+            </section>
+            <br>
+
+            <section class="employee-profiles">
+            <h2>Our Working Team</h2>
+                <div class="image-container"></div>
+                  <div class="employee-profile">
+                      <img src="images/employee1.jpg" alt="Booking Employee" width="200" height="150"> 
+                      <div class="caption">Booking Employee</div>
+                  </div> 
+                  <div class="employee-profile">
+                      <img src="images/employee2.jpg" alt="Checking Employee" width="200" height="150">
+                      <div class="caption">Checking Employees</div>
+                  </div>
+                  <div class="employee-profile">
+                      <img src="images/employee3.jpg" alt="Working Employees" width="200" height="150">
+                      <div class="caption">Working Employees</div>
+                </div>
+            
+            </section>
+          <br>
+
+            <form>
+                 <p>HTML Form</p>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+              <fieldset>
+                <legend>Purpose of Message:</legend>
+                <label>
+                    <input type="radio" name="purpose" value="General Inquiry" required> General Inquiry
+                </label>
+                <label>
+                    <input type="radio" name="purpose" value="Reservation Question"> Reservation Question
+                </label>
+                <label>
+                    <input type="radio" name="purpose" value="Website Suggestion"> Website Suggestion
+                </label>
+            </fieldset>
+
+              <label for="message">Message:</label>
+              <textarea id="message" name="message" required></textarea>
+
+              <label>
+                  <input type="checkbox" id="subscribe" name="subscribe"> Please subscribe me to the monthly newsletter
+              </label>
+              <div class="item">
+                <span class="checkA">yes</span>
+              </div>
+
+              <button type="submit">Submit</button>
+    
+            </form>
+                        
       </main>
   
         <footer>

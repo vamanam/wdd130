@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Home Page</title>
+    <link rel="stylesheet" type="text/css" href="rafting.css">
+</head>
+<body>
+    <!-- Header with Navigation (reuse from other pages) -->
+
+    <!-- Full-Width Hero Image with Heading -->
+    <div class="hero">
+        <h1>Welcome to Our Rafting Adventure</h1>
+        <p>Explore the Thrills of Whitewater Rafting</p>
+    </div>
+
+    <!-- Newsletter Sign-up Form -->
+    <div class="newsletter-form">
+        <h2>Subscribe to Our Newsletter</h2>
+        <form action="subscribe.php" method="post">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <button type="submit">Subscribe</button>
+        </form>
+    </div>
+
+    <!-- Call to Action Button -->
+    <a class="cta-button" href="trips.html">Visit Our Trips</a>
+
+    <!-- CSS Grid Layout for Site Purpose and Offerings -->
+    <div class="grid-container">
+        <div class="grid-item">
+            <img src="image1.jpg" alt="Image 1">
+            <p>Discover the Beauty of Nature</p>
+        </div>
+        <div class="grid-item">
+            <img src="image2.jpg" alt="Image 2">
+            <p>Adventures for Everyone</p>
+        </div>
+        <div class="grid-item">
+            <img src="image3.jpg" alt="Image 3">
+            <p>Professional Guides</p>
+        </div>
+        <div class="grid-item">
+            <img src="image4.jpg" alt="Image 4">
+            <p>Unforgettable Experiences</p>
+        </div>
+    </div>
+
+    <!-- Footer (with a link to the Home page wireframe image) -->
+    <footer>
+        <!-- Footer content (reuse from other pages) -->
+        <a href="home_wireframe.jpg">View Home Page Wireframe</a>
+    </footer>
+</body>
+</html>
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Home Page</title>
+    <link rel="stylesheet" type="text/css" href="rafting.css">
+</head>
+<body>
+    <!-- Header with Navigation (reuse from other pages) -->
+
+    <!-- Full-Width Hero Image with Heading -->
+    <div class="hero">
+        <h1>Welcome to Our Rafting Adventure</h1>
+        <p>Explore the Thrills of Whitewater Rafting</p>
+    </div>
+
+    <!-- Newsletter Sign-up Form -->
+    <div class="newsletter-form">
+        <h2>Subscribe to Our Newsletter</h2>
+        <form action="subscribe.php" method="post">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <button type="submit">Subscribe</button>
+        </form>
+    </div>
+
+    <!-- Call to Action Button -->
+    <a class="cta-button" href="trips.html">Visit Our Trips</a>
+
+    <!-- CSS Grid Layout for Site Purpose and Offerings -->
+    <div class="grid-container">
+        <div class="grid-item">
+            <img src="image1.jpg" alt="Image 1">
+            <p>Discover the Beauty of Nature</p>
+        </div>
+        <div class="grid-item">
+            <img src="image2.jpg" alt="Image 2">
+            <p>Adventures for Everyone</p>
+        </div>
+        <div class="grid-item">
+            <img src="image3.jpg" alt="Image 3">
+            <p>Professional Guides</p>
+        </div>
+        <div class="grid-item">
+            <img src="image4.jpg" alt="Image 4">
+            <p>Unforgettable Experiences</p>
+        </div>
+    </div>
+
+    <!-- Footer (with a link to the Home page wireframe image) -->
+    <footer>
+        <!-- Footer content (reuse from other pages) -->
+        <a href="home_wireframe.jpg">View Home Page Wireframe</a>
+    </footer>
+</body>
+</html>
