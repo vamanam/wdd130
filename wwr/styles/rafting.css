@@ -307,7 +307,7 @@ body {
         }
 
         button {
-            background-color: #0074d9;
+            background-color: steelblue;
             color: #fff;
             padding: 10px 20px;
             border: none;
@@ -316,7 +316,82 @@ body {
         }
 
         button:hover {
-            background-color: #0056a3;
+            background-color: steelblue;
         }
         
+ .trip-table {
+   width: 100%;
+   border-collapse: collapse;
+ }
+
+ .trip-table th,
+ .trip-table td {
+   border: 1px solid #ccc;
+   padding: 10px;
+   text-align: center;
+ }
+
+ .trip-table th {
+   background-color: steelblue;
+   color: white;
+ }
+   table, td {
+          border: 1px solid #333
+        }
+  thead, tfoot {
+          background-color: #333;
+          color: #fff;
+        }
+  th, td {
+          padding: 0.5rem;
+        }
+
+  caption{
+          font-weight: 700;
+          font-size: smaller;
+          color: navy;
+          font-variant: small-caps;
+        }
         
+.left-column {
+  flex: 1;
+  padding: 20px;
+  background-color: steelblue;
+  color: white;
+  text-align: center;
+}
+
+.right-column {
+  flex: 2;
+  padding: 20px;
+}
+
+.call-to-action {
+  background-color: steelblue;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.cta-button {
+  background-color:orange;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+}
+
+.trip-description {
+  text-align: left;
+  padding: 20px;
+}
+
+.trip-description img {
+  max-width: 100%;
+  height: auto;
+}
+
+.trip-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
