@@ -35,7 +35,28 @@ nav a {
     padding: 1rem;
     text-decoration: none;
 }
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
 
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav ul li a.active {
+    font-weight: bold;
+    color: gold;
+    border-bottom: 2px solid gold;
 nav a hover{
   background-color: #333;
 }
